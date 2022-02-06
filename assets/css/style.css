@@ -1,0 +1,47 @@
+
+
+body {
+    /* more crazy examples -- this is an example of css commenting also.  notice the difference from html which is <!---->   */
+
+        
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: tomato;
+
+}
+    /* apply style to <header> */
+    header {
+            padding: 20px  35px;
+            background-color: #39a6b2
+    }
+    header h1 {
+        font-weight: bold;
+        font-size: 36px;
+        color:#fce138;
+        margin: 0;
+        display: inline;
+
+
+
+    }
+    header a {
+       /* color:#fce138;*/
+        text-decoration: none;
+        color:#fce138;
+
+    }
+    header nav {
+        /* float element can be used when you have 2 html items that look better side by side */
+            float: right;
+            margin: 7px 0;
+
+    }
+    header nav ul li {
+            display: inline;
+
+    }
+    header nav ul li a {
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 22px;
+
+    }
